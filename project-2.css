@@ -1,0 +1,56 @@
+#Beasiswa {
+    font-family: "Plus Jakarta Sans";
+    font-size: 54px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+#Mendobrak {
+    font-family: "Plus Jakarta Sans";
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+#image {
+    width: Hug (247.75px)px;
+    height: auto
+}
+
+@media screen and (max-width:992px) {
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    #Beasiswa {
+        font-size: 24px;
+    }
+
+    #Mendobrak {
+        font-size: 14px;
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #image {
+        width: 200px;
+    }
+}
